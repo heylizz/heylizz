@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋 I'm Second Account
+# Hi 👋 I'm Holis
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Software+Engineer;Android+Developer;Web+Developer;AI+Enthusiast;Always+Learning..." />
 
@@ -110,6 +110,6 @@
 
 ![](https://komarev.com/ghpvc/?username=USERNAME&style=for-the-badge&color=blue)
 
-⭐ From [USERNAME](https://github.com/USERNAME)
+⭐ From [USERNAME](https://github.com/heylizz)
 
 </div>
