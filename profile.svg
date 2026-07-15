@@ -1,0 +1,132 @@
+<svg viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="100%" stop-color="#1a0933"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="revealLeft">
+      <rect x="0" y="0" width="0" height="610">
+        <animate attributeName="width" from="0" to="560" dur="1.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect x="4" y="4" width="1172" height="602" rx="14" fill="url(#bgGrad)" stroke="#5b21a8" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <rect x="4" y="4" width="1172" height="36" rx="14" fill="#150730"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="22" r="6" fill="#27c93f"/>
+  <text x="590" y="26" fill="#8a6bb5" font-size="13" text-anchor="middle">root@ghost ~ % ./whoami --anon</text>
+
+  <circle cx="1080" cy="21" r="4" fill="#ff2ea6">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1090" y="26" fill="#ff2ea6" font-size="12" letter-spacing="1">INTRUDING</text>
+
+  <line x1="580" y1="60" x2="580" y2="586" stroke="#3a1a5c" stroke-width="1"/>
+
+  <!-- ============ LEFT PANEL: ASCII PORTRAIT ============ -->
+  <text x="30" y="65" fill="#8a5fd6" font-size="12" letter-spacing="1">VISUAL.MAP / PORTRAIT.SIGNAL</text>
+  <line x1="30" y1="72" x2="550" y2="72" stroke="#2a1550" stroke-width="1"/>
+
+  <g clip-path="url(#revealLeft)">
+    <text x="40" y="98" fill="#c084fc" font-size="8" xml:space="preserve">
+      <tspan x="40" dy="0">************************************************</tspan>
+      <tspan x="40" dy="13">************************************************</tspan>
+      <tspan x="40" dy="13">************************************************</tspan>
+      <tspan x="40" dy="13">******************#%%#%@%%%%%#******************</tspan>
+      <tspan x="40" dy="13">***************#%@@@%%##***##%@%#***************</tspan>
+      <tspan x="40" dy="13">**************#%%%*=:......::-#@%##*************</tspan>
+      <tspan x="40" dy="13">*************%%%*:....:::::::::#%##*************</tspan>
+      <tspan x="40" dy="13">*************##%*:---:...:---=-+%##*************</tspan>
+      <tspan x="40" dy="13">*************##@=:=+++=::-=++=::%%**************</tspan>
+      <tspan x="40" dy="13">**************#%=.::::::.:::....*+**************</tspan>
+      <tspan x="40" dy="13">**************+:=:....:::::...:::-#*************</tspan>
+      <tspan x="40" dy="13">**************#==-:::-=---=-:::=+#**************</tspan>
+      <tspan x="40" dy="13">***************##*--::....::--+##***************</tspan>
+      <tspan x="40" dy="13">*****************#-+++++++=++-#*****************</tspan>
+      <tspan x="40" dy="13">****************** :==---==-: *%****************</tspan>
+      <tspan x="40" dy="13">*************##**%   .:..:.   #@%%##************</tspan>
+      <tspan x="40" dy="13">*******########**%*    =*.   :%%%%%%%%%##*******</tspan>
+      <tspan x="40" dy="13">***###########*#*#%.  +@@@:  *%#########%%%%##**</tspan>
+      <tspan x="40" dy="13">**#*#*###*######**%+   *@   -@####%##########%%*</tspan>
+      <tspan x="40" dy="13">**##**####*########%. -@@=  %%################%#</tspan>
+      <tspan x="40" dy="13">**#%**####*#######*%= #%%@ +@######%%#######%#%#</tspan>
+      <tspan x="40" dy="13">##*%%*####**#########+%%%@+%%#####%%#######%##%#</tspan>
+      <tspan x="40" dy="13">####%################@%%%@#%%####%########%%#%%#</tspan>
+      <tspan x="40" dy="13">####%%##############*#@%%%#%###%%#########%%#%%#</tspan>
+      <tspan x="40" dy="13">###%%%#####**#########%@@#####%%###%%%%##%%%#%%#</tspan>
+      <tspan x="40" dy="13">##%#%@####*#%##########@%###%%%###%##%%#%@%#%%%%</tspan>
+      <tspan x="40" dy="13">####%@##%%@@%%%####%##%%##%%%%###%%#%%##%@%%%#%%</tspan>
+      <tspan x="40" dy="13">###%%@%%@@@%%##%#%%%%%###%%%%##%%%%%%##%@@%%%%%%</tspan>
+      <tspan x="40" dy="13">#%%%%@@@@@%####%%%%##%%%%%%%%%%%%%%%#%%@@@%%%%%%</tspan>
+      <tspan x="40" dy="13">%%%%%@@@@@%####%%%%##%%%%%%%%%%%%%%%%%@@@@%%%%%%</tspan>
+      <tspan x="40" dy="13">###%%%@@@%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%@@%%%%%%</tspan>
+    </text>
+  </g>
+
+  <rect x="30" y="80" width="520" height="2" fill="#ff2ea6" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="y" values="80;500;80" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <line x1="55" y1="128" x2="70" y2="128" stroke="#5b3a8a" stroke-width="1"/>
+  <line x1="62" y1="121" x2="62" y2="135" stroke="#5b3a8a" stroke-width="1"/>
+
+  <!-- ============ RIGHT PANEL: SYSTEM INFO ============ -->
+  <text x="605" y="65" fill="#8a5fd6" font-size="12" letter-spacing="1">SYSTEM.INFO / IDENTITY.UNKNOWN</text>
+  <line x1="605" y1="72" x2="1150" y2="72" stroke="#2a1550" stroke-width="1"/>
+
+  <text x="605" y="98" fill="#ff2ea6" font-size="18" font-weight="bold" letter-spacing="2">UNKNOWN_0x1</text>
+  <text x="605" y="116" fill="#7a5aa8" font-size="12" font-style="italic">"hacking for fun, not for money"</text>
+  <line x1="605" y1="124" x2="1150" y2="124" stroke="#2a1550" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <g font-size="14" fill="#d9c9f0">
+    <text x="605" y="146"><tspan fill="#c084fc" font-weight="bold">. Role: </tspan><tspan fill="#e8dcfa">.......... Grey Hat // Bug Hunter // CTF Player</tspan></text>
+    <text x="605" y="168"><tspan fill="#c084fc" font-weight="bold">. Affiliation: </tspan><tspan fill="#e8dcfa">... Independent // Unaffiliated</tspan></text>
+    <text x="605" y="190"><tspan fill="#c084fc" font-weight="bold">. Base: </tspan><tspan fill="#e8dcfa">.......... Yogyakarta, ID</tspan></text>
+    <text x="605" y="212"><tspan fill="#c084fc" font-weight="bold">. Status: </tspan><tspan fill="#e8dcfa">........ root@night :: hunting</tspan></text>
+  </g>
+
+  <text x="605" y="242" fill="#ff6ec7" font-size="13" letter-spacing="1">- OPS.LOG -----------------------------------------</text>
+  <g font-size="14" fill="#d9c9f0">
+    <text x="605" y="264"><tspan fill="#c084fc" font-weight="bold">. Primary: </tspan><tspan fill="#e8dcfa">....... Web Exploitation</tspan></text>
+    <text x="605" y="286"><tspan fill="#c084fc" font-weight="bold">. Direction: </tspan><tspan fill="#e8dcfa">..... Recon -&gt; Enum -&gt; Exploit -&gt; Report</tspan></text>
+    <text x="605" y="308"><tspan fill="#c084fc" font-weight="bold">. Themes: </tspan><tspan fill="#e8dcfa">........ SQLi / XSS / IDOR / Auth Bypass</tspan></text>
+  </g>
+
+  <text x="605" y="338" fill="#ff6ec7" font-size="13" letter-spacing="1">- TARGET.LOG --------------------------------------</text>
+  <g font-size="14" fill="#d9c9f0">
+    <text x="605" y="360"><tspan fill="#c084fc" font-weight="bold">. CVE-Hunt: </tspan><tspan fill="#e8dcfa">...... Private bug bounty program</tspan></text>
+    <text x="605" y="382"><tspan fill="#c084fc" font-weight="bold">. CTF-Arsenal: </tspan><tspan fill="#e8dcfa">... Writeups &amp; exploit scripts</tspan></text>
+    <text x="605" y="404"><tspan fill="#c084fc" font-weight="bold">. Recon-Toolkit: </tspan><tspan fill="#e8dcfa">. Custom asset/subdomain scanner</tspan></text>
+    <text x="605" y="426"><tspan fill="#c084fc" font-weight="bold">. DEFCON.32: </tspan><tspan fill="#e8dcfa">..... Las Vegas, 2024</tspan></text>
+  </g>
+
+  <text x="605" y="456" fill="#ff6ec7" font-size="13" letter-spacing="1">- GRID.LINKS --------------------------------------</text>
+  <g font-size="14" fill="#d9c9f0">
+    <text x="605" y="478"><tspan fill="#c084fc" font-weight="bold">. GitHub: </tspan><tspan fill="#e8dcfa">........ @[[GITHUB_HANDLE]]</tspan></text>
+    <text x="605" y="500"><tspan fill="#c084fc" font-weight="bold">. HackTheBox: </tspan><tspan fill="#e8dcfa">.... @[[HTB_HANDLE]]</tspan></text>
+    <text x="605" y="522"><tspan fill="#c084fc" font-weight="bold">. HackerOne: </tspan><tspan fill="#e8dcfa">..... @[[H1_HANDLE]]</tspan></text>
+  </g>
+
+  <text x="605" y="550" font-size="14">
+    <tspan fill="#c084fc">signal.locked &gt; </tspan><tspan fill="#e8dcfa">WEB EXPLOITATION / RECON / CTF</tspan>
+  </text>
+  <rect x="605" y="538" width="9" height="14" fill="#c084fc">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <line x1="20" y1="570" x2="1160" y2="570" stroke="#2a1550" stroke-width="1"/>
+  <text x="590" y="592" fill="#6b4a99" font-size="12" letter-spacing="1" text-anchor="middle">NO PATCH NO PEACE</text>
+
+</svg>
